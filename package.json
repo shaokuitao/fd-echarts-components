@@ -8,7 +8,7 @@
   "main": "lib/fd-echarts-components.common.js",
   "repository": {
     "type": "git",
-    "url": "git+git@git.wolaidai.com:maucash/maucash.git"
+    "url": "https://github.com/shaokuitao/fd-echarts-components.git"
   },
   "files": [
     "dist",
