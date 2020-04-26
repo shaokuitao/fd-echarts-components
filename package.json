@@ -2,10 +2,11 @@
   "name": "fd-echarts-components",
   "descriptio": "基于echart二次封装的简单饼图",
   "author": "shaokuitao <76320025@qq.com>",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "license": "MIT",
   "main": "lib/fd-echarts-components.common.js",
+  "style": "lib/fd-echarts-components.css",
   "repository": {
     "type": "git",
     "url": "https://github.com/shaokuitao/fd-echarts-components.git"
