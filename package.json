@@ -1,0 +1,69 @@
+{
+  "name": "fd-echarts-components",
+  "descriptio": "基于echart二次封装的简单饼图",
+  "author": "shaokuitao <76320025@qq.com>",
+  "version": "0.0.1",
+  "private": false,
+  "license": "MIT",
+  "main": "lib/fd-echarts-components.common.js",
+  "repository": {
+    "type": "git",
+    "url": "git+git@git.wolaidai.com:maucash/maucash.git"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "keywords": [
+    "vue",
+    "echarts",
+    "front",
+    "shaokuitao"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "package": "vue-cli-service build --target lib --dest lib --name fd-echarts-components ./src/components/index.js"
+  },
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "echarts": "^4.7.0",
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.6",
+    "vuex": "^3.1.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.3.0",
+    "@vue/cli-plugin-eslint": "^4.3.0",
+    "@vue/cli-service": "^4.3.0",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
