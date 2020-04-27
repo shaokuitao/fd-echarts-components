@@ -4,7 +4,7 @@
  * @Author: shaokuitao <76320025@qq.com>
  * @Date: 2020-04-26 17:27:05
  * @LastEditors: shaokuitao
- * @LastEditTime: 2020-04-26 17:31:51
+ * @LastEditTime: 2020-04-27 11:29:45
  */
 import Vue from 'vue'
 // 引用我们的自定义组件
