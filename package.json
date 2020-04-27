@@ -2,7 +2,7 @@
   "name": "fd-echarts-components",
   "descriptio": "基于echart二次封装的简单饼图",
   "author": "shaokuitao <76320025@qq.com>",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "license": "MIT",
   "main": "lib/fd-echarts-components.common.js",
@@ -12,7 +12,7 @@
     "url": "https://github.com/shaokuitao/fd-echarts-components.git"
   },
   "files": [
-    "dist",
+    "lib",
     "src"
   ],
   "keywords": [
@@ -31,8 +31,7 @@
     "core-js": "^3.6.4",
     "echarts": "^4.7.0",
     "vue": "^2.6.11",
-    "vue-router": "^3.1.6",
-    "vuex": "^3.1.3"
+    "vue-router": "^3.1.6"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.3.0",
